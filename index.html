@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Alumnos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="justify-content: center; align-items: center; text-align: center; margin-top: 35%;
+ background-color: rgb(191, 187, 147);">
+
+    <h1 style="color: rgb(15, 42, 160); font-size: 4em;">SEEU</h1>
+    <h1 style="color: rgb(104, 108, 110);">Gestión de Alumnos</h1>
+    <form id="alumno-form">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="apellidos" placeholder="Apellidos" required>
+        <input type="number" id="edad" placeholder="Edad" required>
+        <button type="submit">Agregar Alumno</button>
+    </form>
+    <form id="calificacion-form">
+        <input type="text" id="nombre-alumno" placeholder="Nombre Alumno" required>
+        <input type="text" id="materia" placeholder="Materia" required>
+        <input type="number" id="calificacion" placeholder="Calificación" required>
+        <button type="submit">Asignar Calificación</button>
+    </form>
+
+
+    <input type="text" id="buscar-nombre" placeholder="Buscar Alumno" oninput="buscar()">
+    <h2 style="color: rgb(104, 108, 110);">Lista de Alumnos</h2>
+    <ul id="alumno-list"></ul>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

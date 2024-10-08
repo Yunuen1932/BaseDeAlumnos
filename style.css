@@ -1,0 +1,14 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   justify-content: center;
+   
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
